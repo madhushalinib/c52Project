@@ -1,0 +1,32 @@
+.header{
+    display:flex;
+    background-color: aqua;
+    justify-content:space-around;
+}
+*{
+    background-color: #808080;
+}
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+a:link{
+    color:rgb(47, 0, 255);
+}
+a:visited{
+    color:rgb(240, 11, 11);
+}
+.item img{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
